@@ -12,8 +12,8 @@ import Footer3Bg from "../../images/footerbottm.png";
 import { breakpoints } from "../../data/breakpoints";
 const Footer1 = styled.div`
   background-image: url(${Footer1Bg});
-  width: 100%;
-  height: 700px;
+  width: calc(100%);
+  height: 740px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -21,8 +21,8 @@ const Footer1 = styled.div`
 
 const Footer2 = styled.div`
   background-image: url(${Footer2Bg});
-  width: 100%;
-  height: 700px;
+  width: calc(100%);
+  height: 740px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -307,8 +307,8 @@ const ImageIcon = styled.img`
 
 const TopBtn = styled.div`
   position: absolute;
-  bottom: calc(22% - 2px);
-  right: 56px;
+  bottom: calc(26% - 2px);
+  right: 54px;
 `;
 
 const ImageBtn = styled.img``;

@@ -12,6 +12,7 @@ const Buttons = styled.button`
   letter-spacing: 1.8px;
   border: none;
   outline: none;
+  font-family: Poppins, sans-serif;
 `;
 
 interface ChildButton {
