@@ -24,7 +24,7 @@ const NavbarHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px calc(10% - 6px) 18px 10%;
+  padding: 18px calc(10% - 3px) 18px 10%;
 `;
 
 const Menu = styled.div``;
@@ -123,6 +123,10 @@ const Content = styled.div`
   }
 `;
 
+const BtnDetails = styled.div`
+  letter-spacing: 2px;
+`;
+
 const Details = styled.button`
   width: 200px;
   height: 58.36px;
@@ -131,9 +135,10 @@ const Details = styled.button`
   color: white;
   font-size: 16px;
   font-weight: 600;
+  letter-spacing: 1.5px;
   border: none;
   outline: none;
-  letter-spacing: 2px;
+
   font-family: Poppins, sans-serif;
   margin-top: 18px;
 `;
@@ -174,7 +179,7 @@ const Right = styled.div`
 
 const Images = styled.img`
   width: 100%;
-  margin: 26px 27px;
+  margin: 26px 27px 26px 27px;
   @media (max-width: ${breakpoints.large}) {
     width: 100%;
     margin: 30px auto;
@@ -291,7 +296,10 @@ const Navbar: React.FC = () => {
               It is a long established fact that a reader will be by the
               readable content of a page.
             </Desc>
-            <Details>More Details</Details>
+            <BtnDetails>
+              {" "}
+              <Details>More Details</Details>
+            </BtnDetails>
           </Left>
           <Right>
             <Images src={Image} alt="" />
