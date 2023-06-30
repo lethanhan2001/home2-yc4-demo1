@@ -1,0 +1,41 @@
+:root {
+  font-family: "Poppins", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4e3d3d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f3acf;
+  border-radius: 4px;
+  height: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff64ae;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #091156;
+}
