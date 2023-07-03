@@ -58,6 +58,7 @@ const Logo = styled.div`
 
   position: relative;
   margin-left: 30px;
+  margin-top: 8px;
 `;
 
 const Footers = styled.div`
@@ -143,6 +144,8 @@ const Span = styled.span`
   font-size: 16px;
   font-weight: 700;
   color: #d7dbff;
+  margin-left: 7px;
+  letter-spacing: 2px;
 `;
 
 const Content = styled.div`
@@ -156,12 +159,15 @@ const Address = styled.p`
   color: #d7dbff;
   font-family: Poppins, sans-serif;
   letter-spacing: 1.75px;
+  margin-top: 20px;
+  margin-left: 8px;
 `;
 
 const Info = styled.div`
   display: flex;
   align-items: center;
   margin-top: -50px;
+  margin-left: 5px;
   @media (max-width: ${breakpoints.large}) {
     margin-top: -20px;
   }
