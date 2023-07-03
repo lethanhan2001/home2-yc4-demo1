@@ -157,6 +157,7 @@ const Head = styled.h1`
   font-size: 48px;
   font-weight: 600;
   line-height: 58px;
+  letter-spacing: 0.7px;
 `;
 
 const Desc = styled.p`
