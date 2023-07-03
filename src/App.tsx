@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Profess from "./components/profess/Profess";
 import Services from "./components/services/Services";
-
+import "./App.css";
 function App() {
   return (
     <>

@@ -414,7 +414,14 @@ const Footer = () => {
                   </EndTitle>
                 </EndBox>
 
-                <TopBtn>
+                <TopBtn
+                  onClick={() =>
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth",
+                    })
+                  }
+                >
                   <ImageBtn src={TotopBtn} alt="" />
                 </TopBtn>
               </End>
