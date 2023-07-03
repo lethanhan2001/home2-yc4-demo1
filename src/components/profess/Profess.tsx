@@ -27,7 +27,7 @@ const Text = styled.div`
   font-family: Poppins, sans-serif;
   letter-spacing: 0.3px;
 
-  @media (max-width: ${breakpoints.medium}) {
+  @media (max-width: ${breakpoints.xlarge}) {
     width: 100%;
   }
 `;
