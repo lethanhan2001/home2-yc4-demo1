@@ -239,7 +239,7 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <ContactMain>
+      <ContactMain id="contact">
         {width > 1200 ? (
           <ContactBox>
             <BoxImages>

@@ -57,7 +57,7 @@ on your beauty"
         desc="Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis."
       />
 
-      <BoxModals>
+      <BoxModals id="service">
         {servicesData.map((item: Services) => (
           <ServiceItem key={item.id} item={item} />
         ))}

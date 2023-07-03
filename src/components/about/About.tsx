@@ -135,7 +135,7 @@ const About: React.FC = () => {
   return (
     <>
       {width > 1200 ? (
-        <AboutMain>
+        <AboutMain id="about">
           <Left>
             <Abouts>
               <Title>About Us</Title>

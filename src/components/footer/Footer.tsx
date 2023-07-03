@@ -12,7 +12,7 @@ import Footer3Bg from "../../images/footerbottm.png";
 import { breakpoints } from "../../data/breakpoints";
 const Footer1 = styled.div`
   background-image: url(${Footer1Bg});
-  width: calc(100%);
+  width: 100%;
   height: 740px;
   background-position: center;
   background-size: cover;

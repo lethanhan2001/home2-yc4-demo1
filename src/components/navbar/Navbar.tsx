@@ -36,11 +36,14 @@ const MenuList = styled.ul`
   align-items: center;
 `;
 
-const MenuItem = styled.li`
+const MenuItem = styled.a`
   list-style: none;
+  text-decoration: none;
+
   letter-spacing: 1.2px;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
   color: #8b8b8b;
   font-family: Poppins, sans-serif;
   &:not(:last-child) {
@@ -253,11 +256,11 @@ const Navbar: React.FC = () => {
             <Menu>
               <MenuList>
                 <MenuItem>Home+</MenuItem>
-                <MenuItem>About</MenuItem>
-                <MenuItem>Service</MenuItem>
-                <MenuItem>Gallery</MenuItem>
-                <MenuItem>Blog</MenuItem>
-                <MenuItem>
+                <MenuItem href="#about">About</MenuItem>
+                <MenuItem href="#service">Service</MenuItem>
+                <MenuItem href="#gallery">Gallery</MenuItem>
+                <MenuItem href="#blog">Blog</MenuItem>
+                <MenuItem href="#contact">
                   {" "}
                   <Button>Contact</Button>
                 </MenuItem>

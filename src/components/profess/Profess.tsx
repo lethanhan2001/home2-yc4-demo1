@@ -61,7 +61,7 @@ const ProfessList = styled.div`
 const Profess: React.FC = () => {
   return (
     <>
-      <ProfessHeader>
+      <ProfessHeader id="gallery">
         <Title>Professional Teams</Title>
         <Text>The Professional expert</Text>
         <Desc>
