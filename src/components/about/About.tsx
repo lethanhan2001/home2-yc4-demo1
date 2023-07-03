@@ -63,8 +63,8 @@ const TextAbout = styled.div`
   letter-spacing: 0.2px;
   color: #091156;
 
-  @media (max-width: ${breakpoints.small}) {
-    line-height: 35px;
+  @media (max-width: ${breakpoints.large}) {
+    line-height: 40px;
   }
 `;
 const DescAbout = styled.div`
