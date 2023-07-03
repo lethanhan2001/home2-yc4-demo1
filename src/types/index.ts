@@ -5,10 +5,6 @@ export interface Services {
   title: string;
 }
 
-export interface Profess {
-  id: number;
-  name: string;
+export interface Profess extends Services {
   username: string;
-  image: string;
-  title: string;
 }
