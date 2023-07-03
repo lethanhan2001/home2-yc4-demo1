@@ -17,6 +17,7 @@ const MainHeader = styled.div`
   background-image: url(${ImageNavbar});
   width: 100%;
   height: 851.4px;
+  font-family: Poppins, sans-serif;
   background-size: cover;
 `;
 
@@ -41,6 +42,7 @@ const MenuItem = styled.li`
   font-size: 16px;
   font-weight: 500;
   color: #8b8b8b;
+  font-family: Poppins, sans-serif;
   &:not(:last-child) {
     margin: 0 24px;
   }
@@ -158,6 +160,7 @@ const Head = styled.h1`
   font-weight: 600;
   line-height: 58px;
   letter-spacing: 0.7px;
+  font-family: Poppins, sans-serif;
 `;
 
 const Desc = styled.p`
@@ -167,6 +170,7 @@ const Desc = styled.p`
   letter-spacing: 1.7px;
   color: #091156;
   margin-top: -21px;
+  font-family: Poppins, sans-serif;
 `;
 
 const Right = styled.div`
